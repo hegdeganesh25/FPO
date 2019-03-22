@@ -46,8 +46,12 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 otp=etOTP.getText().toString();
-                PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationCode, otp);
-                SigninWithPhone(credential);
+                try {
+                    PhoneAuthCredential credential = PhoneAuthProvider.getCredential(verificationCode, otp);
+                    SigninWithPhone(credential);
+                }catch(Exception e){
+                    Toast.makeText(LoginActivity.this,"Incorrect OTP",Toast.LENGTH_SHORT).show();
+                }
             }
         });
     }
