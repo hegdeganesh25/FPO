@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/my_orders"
+            android:icon="@drawable/ic_menu_order"
+            android:title="My Orders" />
+        <item
+            android:id="@+id/my_wish_list"
+            android:icon="@drawable/ic_menu_wishlist"
+            android:title="My Wish List" />
+        <item
+            android:id="@+id/my_cart"
+            android:icon="@drawable/ic_menu_cart"
+            android:title="My Cart" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/contact_us"
+                android:icon="@drawable/ic_menu_contact"
+                android:title="Contact Us" />
+        </menu>
+    </item>
+
+    <item android:title="Settings">
+        <menu>account
+            <item
+                android:id="@+id/language"
+                android:icon="@drawable/ic_menu_language"
+                android:title="Language" />
+            <item
+                android:id="@+id/location"
+                android:icon="@drawable/ic_menu_location"
+                android:title="Location" />
+        </menu>
+    </item>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/my_account"
+                android:icon="@drawable/ic_menu_account"
+                android:title="My Account" />
+            <item
+                android:id="@+id/switch_account"
+                android:icon="@drawable/ic_menu_switchaccount"
+                android:title="Switch Account" />
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="Log Out" />
+        </menu>
+    </item>
+</menu>

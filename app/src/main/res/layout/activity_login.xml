@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/theme_color"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context="com.unique.fpo.LoginActivity">
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:gravity="center"
+        android:hint="@string/phone_number"
+        android:inputType="number"
+        android:textColor="@color/colorAccent1"
+        android:textColorHint="@color/colorAccent1"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:id="@+id/et_otp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:clickable="false"
+        android:gravity="center"
+        android:hint="@string/enter_otp"
+        android:textColorHint="@color/colorAccent1"
+        android:textColor="@color/colorAccent1" />
+
+    <Button
+        android:id="@+id/btn_generate_otp"
+        android:layout_width="143dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent1"
+        android:hint="@string/generate_otp"
+        android:textColorHint="@color/theme_color" />
+
+    <Button
+        android:id="@+id/btn_sign_in"
+        android:layout_width="147dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:background="@color/colorAccent1"
+        android:hint="Login"
+        android:textColorHint="@color/theme_color" />
+
+</LinearLayout>

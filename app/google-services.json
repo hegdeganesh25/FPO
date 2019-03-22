@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "948376492696",
+    "firebase_url": "https://fpoapp-b6bee.firebaseio.com",
+    "project_id": "fpoapp-b6bee",
+    "storage_bucket": "fpoapp-b6bee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:948376492696:android:eb9b5f62e5e2ddbd",
+        "android_client_info": {
+          "package_name": "com.unique.fpo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "948376492696-7461ra35kemjj3asj5fd76a00fqcovli.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.unique.fpo",
+            "certificate_hash": "735a658aee00f21882a53ad80f90a6c93dadc728"
+          }
+        },
+        {
+          "client_id": "948376492696-me078pe9nsfj4dna8luiur95jvd71lsj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAmhWxdxarnQ7lY_duQNQJuB-7eZkdXJlQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "948376492696-me078pe9nsfj4dna8luiur95jvd71lsj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
